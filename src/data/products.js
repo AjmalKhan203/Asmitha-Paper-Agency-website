@@ -1,180 +1,461 @@
 
 import brownPaperImage1 from "../assets/brown1.png";
 import brownPaperImage2 from "../assets/brown2.png";
-import patternPaperImage from "../assets/pattern paper .jpg";
-import cateringRollImage from "../assets/10.jpeg";
-import secondaryCateringRollImage from "../assets/white1.png";
-
+import garmentUnderlayImage from "../assets/garmentUnderlayImage.jpeg";
+import whiteGarmentUnderlayImage from "../assets/whiteGarmentUnderlayImage.jpg";
+import whitePaperImage from "../assets/white1.png";
+import perforatedKraftImage1 from "../assets/perforatedKraftImage1.jpeg";
+import patternPaper from "../assets/pattern paper .jpg";
+import cadPlotterImage1 from "../assets/cadPlotterImage1.jpeg";
+import cadCamPatternImage1 from "../assets/cadCamPatternImage1.jpeg";
+import cadCamDuplexPatternImage1 from "../assets/cadCamDuplexPatternImage1.jpeg";
+import cadCamPattern220Image1 from "../assets/cadCamPattern220Image1.jpeg";
+import autoCutterPolyImage2 from "../assets/autoCutterPolyImage2.jpg";
 export const PRODUCTS = [
   {
-    id: "brown-kraft-paper-roll",
-    title: "Brown Kraft Paper Roll for Industrial Wrapping and Packaging",
-    seoTitle: "Brown Kraft Paper Roll | Industrial Wrapping | APA",
+    id: "garment-cutting-underlay-paper",
+    title: "Garment Cutting Underlay Paper (Kraft / Brown) for Apparel Manufacturing",
+    seoTitle: "Garment Cutting Underlay Paper | 100 GSM Kraft | APA",
     description:
-      "Use brown kraft paper for flexible wrapping, surface covering, and day-to-day packing across busy business operations. Select a suitable paper grade and roll size to match your products, work area, and handling needs.",
+      "Use brown kraft garment cutting underlay paper to provide strong, smooth support during fabric spreading and precision cutting. Available in 100 GSM and multiple standard roll widths to match your cutting tables and apparel production workflows.",
     metaDescription:
-      "Source brown kraft paper rolls for wrapping, floor protection and void fill. Contact APA to discuss your bulk order.",
-    gsm: "Confirm based on requirement",
-    widths: ["Custom widths", "Custom sizes", "Custom rolls"],
-    bestFor: "Wrapping, surface protection, void fill, and general packing workflows.",
+      "Source 100 GSM brown kraft garment cutting underlay paper rolls in widths from 31\" to 90\". Contact APA to discuss your bulk order.",
+    gsm: "100 GSM",
+    widths: [
+      '31"',
+      '36"',
+      '42"',
+      '48"',
+      '62"',
+      '72"',
+      '78"',
+      '80"',
+      '82"',
+      '85"',
+      '90"',
+    ],
+    bestFor: "Garment cutting, pattern making, and fabric handling workflows.",
     format: "Paper rolls",
     specNote:
-      "Ask about GSM and roll size for your application. Recyclability depends on the paper grade, any coatings, and local facilities.",
+      "100 GSM Kraft / Brown paper available in 11 standard widths from 31\" to 90\". Confirm roll length and bulk quantity requirements with APA before ordering.",
     keyFeatures: [
-      "Use as industrial wrapping paper for goods prepared for storage, dispatch, or retail presentation.",
-      "For heavy-duty packaging paper requirements, confirm GSM and strength with APA before ordering.",
-      "Cut to length as a floor protection paper sheet for suitable painting, renovation, or maintenance work.",
-      "Can be crumpled as eco-friendly void fill where the paper grade and local recycling options are appropriate.",
+      "Smooth surface and high strength provide reliable support under multi-layer fabric lays during straight-knife or automated cutting.",
+      "Durable yet lightweight 100 GSM brown kraft construction prevents tearing and shifting on cutting tables.",
+      "Cost-effective solution for high-volume garment manufacturing, pattern drafting, and fabric handling.",
+      "Wide selection of standard roll widths from 31\" to 90\" to fit different cutting table dimensions with minimal waste.",
     ],
     useCases: [
       {
-        title: "Logistics and e-commerce dispatch",
+        title: "Garment cutting table underlay",
         description:
-          "Wrap suitable products or add a paper layer while preparing orders for storage and delivery.",
+          "Lay beneath stacked fabric layers to create a smooth, protective barrier between the cutting table and the blade.",
       },
       {
-        title: "Painting and renovation protection",
+        title: "Apparel pattern making",
         description:
-          "Cut a suitable length to cover floors or work surfaces during painting and maintenance tasks.",
+          "Draft, trace, and cut durable clothing patterns and templates using firm 100 GSM kraft paper.",
       },
       {
-        title: "Warehouse packing and void fill",
+        title: "Fabric spreading and handling",
         description:
-          "Use as a separator or crumpled fill for suitable goods, matching the paper grade to the packing need.",
+          "Facilitate smooth sliding and alignment of fabric lays without snagging delicate textiles.",
       },
       {
-        title: "Retail wrapping",
+        title: "Interleaving and bundle separation",
         description:
-          "Use as a simple wrapping layer for retail products and goods prepared for dispatch.",
+          "Separate cut fabric bundles or protect textile rolls during internal factory movement and storage.",
       },
     ],
     industries: [
-      "Logistics companies",
-      "Painting and renovation contractors",
+      "Garment and apparel manufacturers",
+      "Textile mills and fabric processors",
+      "Fashion and sampling studios",
+      "Contract cutting and stitching units",
+      "Upholstery and home furnishing manufacturers",
+    ],
+    images: [garmentUnderlayImage,brownPaperImage1, brownPaperImage2,],
+  },
+  {
+    id: "garment-cutting-underlay-paper-white",
+    title: "Garment Cutting Underlay Paper (White) for Apparel Manufacturing",
+    seoTitle: "White Garment Cutting Underlay Paper | 80 GSM | APA",
+    description:
+      "Use white garment cutting underlay paper to provide clean, smooth support and high contrast during fabric spreading and precision cutting. Available in 80 GSM and standard roll widths to match your cutting tables and apparel production workflows.",
+    metaDescription:
+      "Source 80 GSM white garment cutting underlay paper rolls in widths from 24\" to 72\". Contact APA to discuss your bulk order.",
+    gsm: "80 GSM",
+    widths: [
+      '24"',
+      '31"',
+      '36"',
+      '72"',
+    ],
+    bestFor: "Garment cutting, pattern making, and fabric handling workflows.",
+    format: "Paper rolls",
+    specNote:
+      "80 GSM White paper available in standard widths: 24\", 31\", 36\", and 72\". Confirm roll length and bulk quantity requirements with APA before ordering.",
+    keyFeatures: [
+      "Smooth surface and high strength provide reliable support under multi-layer fabric lays during straight-knife or automated cutting.",
+      "Clean white finish offers high visual contrast for pattern alignment, marking, and inspection.",
+      "Durable yet lightweight 80 GSM construction prevents tearing and shifting on cutting tables.",
+      "Available in standard roll widths from 24\" to 72\" to fit different cutting table dimensions with minimal waste.",
+    ],
+    useCases: [
+      {
+        title: "Garment cutting table underlay",
+        description:
+          "Lay beneath stacked fabric layers to create a clean, smooth protective barrier between the cutting table and the blade.",
+      },
+      {
+        title: "Apparel pattern making",
+        description:
+          "Draft, trace, and cut precise clothing patterns and templates using clean white paper.",
+      },
+      {
+        title: "Fabric spreading and handling",
+        description:
+          "Facilitate smooth sliding and alignment of fabric lays without snagging delicate textiles.",
+      },
+      {
+        title: "Interleaving and bundle separation",
+        description:
+          "Separate cut fabric bundles or protect textile rolls during internal factory movement and storage.",
+      },
+    ],
+    industries: [
+      "Garment and apparel manufacturers",
+      "Textile mills and fabric processors",
+      "Fashion and sampling studios",
+      "Contract cutting and stitching units",
+      "Upholstery and home furnishing manufacturers",
+    ],
+    images: [whiteGarmentUnderlayImage, whitePaperImage],
+  },
+  {
+    id: "perforated-kraft-lay-paper-rolls",
+    title: "Perforated Kraft Lay Paper Rolls for Garment and Packaging Applications",
+    seoTitle: "Perforated Kraft Lay Paper Rolls | 80-100 GSM | APA",
+    description:
+      "Use perforated kraft lay paper rolls to ensure better airflow and smooth handling during garment production, fabric wrapping, and packaging operations. Available in 80 to 100 GSM and multiple standard roll widths to match your industrial workflows.",
+    metaDescription:
+      "Source 80-100 GSM perforated kraft lay paper rolls in widths from 36\" to 90\". Contact APA to discuss your bulk order.",
+    gsm: "80 – 100 GSM",
+    widths: [
+      '36"',
+      '42"',
+      '48"',
+      '62"',
+      '66"',
+      '72"',
+      '78"',
+      '80"',
+      '82"',
+      '85"',
+      '90"',
+    ],
+    bestFor: "Garment production, fabric wrapping, packaging, and textile applications.",
+    format: "Paper rolls",
+    specNote:
+      "80 – 100 GSM Kraft paper with perforation available in 11 standard widths from 36\" to 90\". Confirm roll length and bulk quantity requirements with APA before ordering.",
+    keyFeatures: [
+      "Perforated design improves air circulation and prevents moisture buildup during spreading and storage.",
+      "Protects fabrics and products effectively while offering smooth handling on cutting and packaging tables.",
+      "Eco-friendly and recyclable material suitable for sustainable industrial workflows.",
+      "Wide selection of standard roll widths from 36\" to 90\" to fit diverse industrial and garment manufacturing setups.",
+    ],
+    useCases: [
+      {
+        title: "Garment production and cutting underlay",
+        description:
+          "Lay beneath multi-layer fabric spreads to enhance airflow and facilitate precision cutting.",
+      },
+      {
+        title: "Fabric wrapping and interleaving",
+        description:
+          "Wrap delicate textiles or interleave between layers to protect surfaces during storage and transport.",
+      },
+      {
+        title: "Industrial packaging",
+        description:
+          "Use as breathable wrapping or protective layer for goods prepared for dispatch.",
+      },
+      {
+        title: "Textile applications",
+        description:
+          "Support various textile manufacturing processes requiring ventilation and structural paper support.",
+      },
+    ],
+    industries: [
+      "Garment industry",
+      "Textile applications",
+      "Packaging and logistics",
+      "Apparel manufacturing units",
       "Manufacturing warehouses",
-      "Retail brands",
-      "E-commerce shippers",
     ],
-    images: [brownPaperImage1, brownPaperImage2,],
+    images: [perforatedKraftImage1, patternPaper],
   },
-  {
-    id: "perforated-pattern-packaging-paper",
-    title: "Perforated Pattern Paper Roll for Garment Cutting and Ventilated Packaging",
-    seoTitle: "Perforated Pattern Paper Roll | Garment Cutting | APA",
+   {
+    id: "cad-plotter-paper-rolls",
+    title: "CAD Plotter Paper Rolls for Architectural, Engineering, and Technical Prints",
+    seoTitle: "CAD Plotter Paper Rolls | 60 GSM | APA",
     description:
-      "Keep garment production and packing workflows moving with a roll designed for practical, repeat-use applications. Its perforations support airflow where your cutting equipment or packaging process requires ventilation.",
+      "Use 60 GSM CAD plotter paper rolls for precision prints, sharp line accuracy, and reliable performance across wide-format plotting workflows. Available in standard roll widths from 36\" to 72\" to suit architectural, engineering, and garment CAD plotting needs.",
     metaDescription:
-      "Order perforated pattern paper rolls for garment cutting and suitable ventilated packing. Ask APA about sizes and bulk supply.",
-    gsm: "50 - 80 GSM",
-    widths: ["36\"", "48\"", "60\"", "63\"", "Custom widths", "Custom sizes", "Custom rolls"],
-    bestFor: "Automated garment cutting beds, industrial packaging, and vacuum-sealed transit.",
-    format: "Perforated paper rolls",
-    specNote: "Confirm the roll width and perforation requirements for your equipment or packing process.",
+      "Source 60 GSM CAD plotter paper rolls in widths from 36\" to 72\" for architectural plans and technical prints. Contact APA to discuss your bulk order.",
+    gsm: "60 GSM",
+    widths: [
+      '36"',
+      '40"',
+      '62"',
+      '64"',
+      '72"',
+    ],
+    bestFor: "CAD drawings, architectural plans, engineering, and technical prints.",
+    format: "Paper rolls",
+    specNote:
+      "60 GSM white plotter paper available in 5 standard widths: 36\", 40\", 62\", 64\", and 72\". Confirm core size, roll length, and bulk quantity requirements with APA before ordering.",
     keyFeatures: [
-      "Works as garment cutting paper in compatible apparel cutting-room setups.",
-      "Perforations allow airflow through the paper for processes designed to use ventilated layers.",
-      "Can serve as a ventilated packaging roll for suitable products and applications.",
-      "Industrial pattern paper supplied as APA paper rolls for bulk garment and suitable packing workflows.",
-      "Confirm GSM, roll width, and perforation requirements when ordering.",
+      "Delivers high accuracy and crisp line definition for detailed CAD drawings and technical blueprints.",
+      "Lightweight and smooth 60 GSM surface ensures smooth feeding and reduced wear on plotter heads.",
+      "Excellent ink hold prevents smudging and bleeding for clean, professional results.",
+      "Reliable performance across wide-format inkjet and pen plotters in standard widths from 36\" to 72\".",
     ],
     useCases: [
       {
-        title: "Vacuum cutting tables",
+        title: "Architectural plans and blueprints",
         description:
-          "Perforations allow airflow through the paper in compatible garment cutting-bed setups.",
+          "Print large-scale building layouts, elevations, and construction drawings with sharp line clarity.",
       },
       {
-        title: "Garment production layers",
+        title: "Engineering and technical schematics",
         description:
-          "Use in cutting-room workflows that need a perforated paper layer between or over fabric lays.",
+          "Produce accurate mechanical, electrical, and civil engineering diagrams for shop-floor and site reference.",
       },
       {
-        title: "Protective industrial packing",
+        title: "Garment CAD marker plotting",
         description:
-          "Use as a paper layer for separating or protecting suitable goods during packing and transit.",
+          "Plot full-scale apparel patterns and cutting markers in wider roll formats like 62\", 64\", and 72\".",
       },
       {
-        title: "Apparel production batches",
+        title: "Design and drafting reviews",
         description:
-          "Garment units can use compatible perforated rolls across repeat cutting runs, matching roll width and perforation to their table and process.",
-      },
-      {
-        title: "Ventilated horticulture packing",
-        description:
-          "Agricultural exporters and horticulture businesses can assess perforated paper as a breathable layer for suitable produce and packing methods.",
-      },
-      {
-        title: "Fulfillment packing",
-        description:
-          "E-commerce fulfillment teams can use it as a separating or ventilated layer when the product and packing setup call for airflow.",
+          "Generate cost-effective working drafts and technical proofs for team review and client approvals.",
       },
     ],
     industries: [
-      "Garment manufacturers",
-      "Apparel factories",
-      "Agricultural exporters",
-      "Horticulture businesses",
-      "E-commerce fulfillment hubs",
+      "Architecture firms",
+      "Engineering and construction companies",
+      "Design and drafting studios",
+      "Industrial manufacturing units",
+      "Garment and apparel CAD departments",
     ],
-    images: [patternPaperImage],
+    images: [cadPlotterImage1],
   },
   {
-    id: "plain-catering-table-roll",
-    title: "Plain Catering Table Roll Paper for Restaurants and Events",
-    seoTitle: "Plain Catering Table Roll Paper | Bulk Supply | APA",
+    id: "garment-cad-cam-pattern-roll",
+    title: "Garment CAD/CAM Pattern Roll (250 GSM) for Precision Pattern Making",
+    seoTitle: "Garment CAD/CAM Pattern Roll | 250 GSM | APA",
     description:
-      "Prepare service tables quickly with plain paper supplied in convenient roll format for busy food-service and event settings. Cut the length you need and clear used paper after service to help simplify table resets.",
+      "Use heavy-duty 250 GSM garment CAD/CAM pattern rolls for precision pattern drafting, marker making, and repeatable apparel production. Available in a 48\" roll width with a smooth surface and premium strength for demanding CAD/CAM cutting and plotting systems.",
     metaDescription:
-      "Order plain catering table roll paper for events and restaurants. Ask APA about roll sizes and bulk pricing.",
-    gsm: "40 - 80 GSM",
-    widths: ["Custom widths", "Custom sizes", "Custom rolls"],
-    bestFor: "Caterers, hotels, restaurants, event planners, and food service businesses.",
-    format: "Custom rolls and sheets",
-    specNote: "Discuss the table, tray, or service-area dimensions when requesting a quote.",
+      "Source 250 GSM garment CAD/CAM pattern rolls in 48\" width for CAD pattern making and marker making. Contact APA to discuss your bulk order.",
+    gsm: "250 GSM",
+    widths: ['48"'],
+    bestFor: "CAD pattern making, marker making, and garment production.",
+    format: "Paper rolls",
+    specNote:
+      "250 GSM heavy-duty brown pattern paper available in 48\" width. Confirm roll length, core size, and bulk quantity requirements with APA before ordering.",
     keyFeatures: [
-      "Use as a disposable white table cover roll where white stock is available and suits your requirements.",
-      "A hygienic restaurant table liner can help keep service surfaces covered between uses.",
-      "Cut roll lengths to fit dining tables, counters, and event setups.",
-      "For direct food contact, confirm that the paper meets your food-grade counter liner requirements.",
+      "Delivers high accuracy for precision patterns and consistent garment fit across production runs.",
+      "Premium 250 GSM strength ensures rigid, tear-resistant master patterns that withstand repeated tracing and handling.",
+      "Smooth surface allows clean pen plotting and accurate cutting on CAD/CAM pattern cutters.",
+      "Supplied in a 48\" standard roll width tailored for industrial garment CAD/CAM systems.",
     ],
     useCases: [
       {
-        title: "Catering and buffet tables",
+        title: "CAD/CAM pattern cutting and plotting",
         description:
-          "Cover service tables for a tidy, practical setup at events and food-service venues.",
+          "Feed directly into automated CAD/CAM pattern plotters and cutters to produce rigid, ready-to-use garment blocks.",
       },
       {
-        title: "Tray and counter lining",
+        title: "Master pattern making and grading",
         description:
-          "Line trays, counters, or preparation surfaces where a disposable paper layer is appropriate.",
+          "Create durable 250 GSM master patterns and graded size sets that hold their shape through frequent shop-floor use.",
       },
       {
-        title: "Takeaway service",
+        title: "Marker making and layout planning",
         description:
-          "Use as an outer or separating layer in takeaway presentation and packing workflows; check food-contact suitability for direct contact.",
+          "Draft accurate production markers to optimize fabric utilization before bulk cutting.",
       },
       {
-        title: "Private-label branded rolls",
+        title: "Garment sampling and production",
         description:
-          "Catering-paper makers and distributors can arrange for a compatible printer to add a buyer's brand name or logo for branded table-roll resale. Printing is arranged separately; confirm print and food-contact suitability before production.",
-      },
-      {
-        title: "Banquets and high-volume service",
-        description:
-          "Event teams, wedding venues, and mess halls can cut roll lengths for tables and reset service areas after use.",
+          "Support sampling rooms and cutting floors with sturdy templates for manual tracing and quality checks.",
       },
     ],
     industries: [
-      "Catering services",
-      "Event managers",
-      "High-volume restaurants",
-      "Wedding venues",
-      "Mess halls",
-      "Fast-food outlets",
-      "Catering-paper makers and distributors",
+      "Garment and apparel manufacturers",
+      "Fashion design and sampling studios",
+      "Export houses and buying agencies",
+      "Contract cutting and stitching units",
+      "Upholstery, leather goods, and footwear pattern makers",
     ],
-    images: [cateringRollImage, secondaryCateringRollImage],
+    images: [cadCamPatternImage1],
   },
+  {
+    id: "garment-cad-cam-duplex-pattern-roll",
+    title: "Garment CAD/CAM Duplex Pattern Roll (300 - 400 GSM) for Precision Pattern Making",
+    seoTitle: "Garment CAD/CAM Duplex Pattern Roll | 300-400 GSM | APA",
+    description:
+      "Use heavy-duty 300 to 400 GSM garment CAD/CAM duplex pattern rolls for precision pattern making, CAD designs, and repeated apparel production. Built with a duplex layer for superior durability and available in 36\", 42\", and 48\" roll widths to deliver accurate patterns and a consistent fit.",
+    metaDescription:
+      "Source 300-400 GSM garment CAD/CAM duplex pattern rolls in 36\", 42\", and 48\" widths. Contact APA to discuss your bulk order.",
+    gsm: "300 - 400 GSM",
+    widths: ['36"', '42"', '48"'],
+    bestFor: "Garment CAD/CAM designs, pattern making, and apparel production.",
+    format: "Paper rolls",
+    specNote:
+      "300 - 400 GSM duplex pattern board roll available in 36\", 42\", and 48\" widths. Confirm exact GSM, roll length, and bulk quantity requirements with APA before ordering.",
+    keyFeatures: [
+      "Duplex layer construction provides better durability, rigidity, and edge stability for long-term pattern reuse.",
+      "Heavyweight 300 - 400 GSM thickness resists curling, creasing, and wear during repeated manual tracing and cutting.",
+      "Clean white top surface ensures high visual contrast and crisp line definition for CAD design plotting.",
+      "Available in standard 36\", 42\", and 48\" roll widths compatible with automated garment CAD/CAM cutters and plotters.",
+    ],
+    useCases: [
+      {
+        title: "Automated CAD/CAM pattern cutting",
+        description:
+          "Feed into flatbed and roller CAD/CAM pattern cutters to produce rigid, production-ready garment templates.",
+      },
+      {
+        title: "Master pattern archiving and grading",
+        description:
+          "Create long-lasting 300 - 400 GSM duplex master blocks and graded size sets for repeat seasonal styles.",
+      },
+      {
+        title: "Manual tracing and chalk marking",
+        description:
+          "Use firm, smooth-edged duplex pattern pieces as reliable guides on cutting tables without edge wear.",
+      },
+      {
+        title: "Apparel sampling and quality control",
+        description:
+          "Verify garment dimensions and seam allowances accurately during sampling and inline production checks.",
+      },
+    ],
+    industries: [
+      "Garment and apparel manufacturers",
+      "Fashion design and sampling studios",
+      "Export houses and buying agencies",
+      "Contract cutting and stitching units",
+      "Leather goods, bags, and footwear manufacturers",
+    ],
+    images: [cadCamDuplexPatternImage1],
+  },
+  {
+    id: "garment-cad-cam-pattern-roll-220gsm",
+    title: "Garment CAD/CAM Pattern Roll (220 GSM) for Precision Pattern Making",
+    seoTitle: "Garment CAD/CAM Pattern Roll | 220 GSM | APA",
+    description:
+      "Use 220 GSM garment CAD/CAM pattern rolls for precision pattern making, garment CAD designs, and apparel production workflows. Built with high precision, strong durability, and excellent smoothness in a 48\" roll width.",
+    metaDescription:
+      "Source 220 GSM garment CAD/CAM pattern rolls in 48\" width for pattern design and production. Contact APA to discuss your bulk order.",
+    gsm: "220 GSM",
+    widths: ['48"'],
+    bestFor: "Garment CAD/CAM designs, pattern making, and production workflows.",
+    format: "Paper rolls",
+    specNote:
+      "220 GSM pattern paper available in 48\" width. Confirm roll length, core size, and bulk quantity requirements with APA before ordering.",
+    keyFeatures: [
+      "High precision performance ensures accurate CAD plotting and pattern drafting for a perfect fit.",
+      "Strong and durable 220 GSM construction resists tearing during frequent handling and tracing.",
+      "Excellent smoothness allows seamless feeding through plotters and clean cutting edges.",
+      "Supplied in a 48\" standard width tailored for industrial garment CAD/CAM systems.",
+    ],
+    useCases: [
+      {
+        title: "Garment CAD/CAM designs and plotting",
+        description:
+          "Feed directly into automated plotters to generate precise apparel patterns and cutting templates.",
+      },
+      {
+        title: "Pattern making and grading",
+        description:
+          "Draft and grade master clothing patterns with reliable structural support.",
+      },
+      {
+        title: "Apparel production and sampling",
+        description:
+          "Support sample rooms and production floors with durable, smooth pattern sheets.",
+      },
+      {
+        title: "Garment design layouts",
+        description:
+          "Create accurate design layouts and markers to streamline manufacturing operations.",
+      },
+    ],
+    industries: [
+      "Garment and apparel manufacturers",
+      "Fashion design studios",
+      "Export houses and buying agencies",
+      "Contract cutting and stitching units",
+      "Apparel production facilities",
+    ],
+    images: [cadCamPattern220Image1],
+  },
+  {
+    id: "garment-lay-auto-cutter-hm-open-width-poly-roll",
+    title: "Garment Lay Auto Cutter HM - Open Width Poly Roll for Textile Applications",
+    seoTitle: "Garment Lay Auto Cutter HM Open Width Poly Roll | APA",
+    description:
+      "Use HM open width poly rolls for smooth cutting, high strength, and wide coverage across automated garment lay cutting operations. Available in 92\" to 96\" sizes with virgin and non-virgin poly roll variants to match your production requirements.",
+    metaDescription:
+      "Source HM open width poly rolls in 92\" to 96\" widths for garment auto cutters and textile applications. Contact APA to discuss your bulk order.",
+    gsm: "Confirm based on requirement",
+    widths: ['92"', '93"', '94"', '95"', '96"'],
+    bestFor: "Garment lay cutting and textile applications.",
+    format: "Poly rolls",
+    specNote:
+      "HM - Open Width Poly Roll available in 92\" to 96\" sizes with Virgin and Non-Virgin variants. Confirm film thickness, roll length, and bulk quantity requirements with APA before ordering.",
+    keyFeatures: [
+      "Designed for smooth cutting and reliable performance under automated auto cutter systems.",
+      "High strength and lightweight construction provide durable top or bottom coverage during fabric spreading.",
+      "Wide coverage from 92\" to 96\" accommodates large-scale industrial cutting tables.",
+      "Available in both Virgin Poly Roll and Non-Virgin Poly Roll variants to suit your operational budget and quality needs.",
+    ],
+    useCases: [
+      {
+        title: "Garment lay auto cutter top/bottom film",
+        description:
+          "Spread over or under fabric lays to compress layers and ensure clean vacuum suction and cutting on CNC auto cutters.",
+      },
+      {
+        title: "Fabric roll protection and packaging",
+        description:
+          "Wrap finished textile rolls or stacked fabric bundles to protect against dust and moisture during storage.",
+      },
+      {
+        title: "Wide-format surface covering",
+        description:
+          "Cover large cutting tables or workstations during specialized textile and manufacturing tasks.",
+      },
+      {
+        title: "Industrial bundling and interleaving",
+        description:
+          "Use wide polyethylene film layers to separate and secure goods in warehouse operations.",
+      },
+    ],
+    industries: [
+      "Garment and apparel manufacturers",
+      "Automated cutting facilities",
+      "Textile processing units",
+      "Export houses and manufacturing warehouses",
+      "Contract cutting and stitching units",
+    ],
+    images: [ autoCutterPolyImage2],
+  },
+
 ];
 
 export const products = PRODUCTS;

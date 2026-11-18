@@ -2,7 +2,7 @@ import { createContext } from "react";
 import { PRODUCTS } from "../data/products";
 import defaultShareImage from "../assets/logo.png";
 
-const DEFAULT_SITE_URL = "https://asmithapaperagency.netlify.app";
+const DEFAULT_SITE_URL = "https://YOUR-SITE-NAME.netlify.app";
 
 export const SeoCollectorContext = createContext(null);
 

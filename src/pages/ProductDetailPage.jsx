@@ -78,7 +78,7 @@ export default function ProductDetailPage() {
               Request a bulk quote
             </Link>
           </div>
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-sky-100 animate-fade-up">
+          <div className="relative aspect-[3/2] w-full overflow-hidden rounded-xl bg-sky-100 animate-fade-up shadow-sm">
             {images.map((src, index) => (
               <img
                 key={`${src}-${index}`}
@@ -91,7 +91,7 @@ export default function ProductDetailPage() {
             ))}
 
             {images.length > 1 && (
-              <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
+              <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10">
                 {images.map((src, index) => (
                   <button
                     key={`${src}-dot-${index}`}
@@ -99,7 +99,7 @@ export default function ProductDetailPage() {
                     aria-label={`Show product image ${index + 1}`}
                     onClick={() => setActiveImage(index)}
                     className={`h-2.5 rounded-full transition-all duration-300 ${
-                      index === activeImage ? "w-8 bg-white" : "w-2.5 bg-white/70"
+                      index === activeImage ? "w-8 bg-white shadow" : "w-2.5 bg-white/70 hover:bg-white/90"
                     }`}
                   />
                 ))}

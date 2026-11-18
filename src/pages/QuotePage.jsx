@@ -446,7 +446,7 @@ function QuoteForm({ initialProductId = "" }) {
                 wrap="soft"
                 minLength="10"
                 maxLength="250"
-                placeholder="No. 12, Raja Street, Tiruppur, Tamil Nadu, India"
+                placeholder="e.g., Pitchampalayam Pudur, Tiruppur, Tamil Nadu"
                 title="Enter a detailed delivery address with street/building, district, state, and country."
                 aria-required="true"
                 required
@@ -729,26 +729,28 @@ export default function QuotePage() {
   return (
     <Layout
       seo={{
-        title: "Request a Bulk Paper Roll Quote | Asmitha Paper Agency",
+        title:
+          "Request a Bulk Garment, CAD Plotter & Kraft Paper Roll Quote | APA Tiruppur",
         description:
-          "Request a B2B quote for brown kraft paper, perforated paper rolls, or plain catering table rolls with your required size, GSM, quantity, and delivery location.",
+          "Request a B2B bulk quote for brown & white garment cutting underlay paper, perforated kraft lay paper, 60–400 GSM CAD/CAM plotter & pattern rolls, and HM poly rolls across Tiruppur and Tamil Nadu.",
         path: "/quote",
       }}
     >
       <section className="pb-16">
         <div className="max-w-6xl mx-auto px-6 text-center pt-8 animate-fade-up">
           <p className="text-sky-600 font-semibold mb-3">
-            B2B Bulk Orders & Business Inquiries
+            B2B Bulk Orders &amp; Garment/Packaging Paper Enquiries
           </p>
 
           <h1 className="text-5xl md:text-6xl font-black mb-6">
-            Request a Bulk Paper Roll Quote
+            Request a Bulk Paper &amp; Poly Roll Quote
           </h1>
 
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-8">
-            Share your business paper requirements and we will open WhatsApp
-            with a ready bulk-order enquiry. We deliver across Tiruppur and
-            other districts.
+            Share your required paper or poly roll specifications—including
+            product type, GSM, roll width, and quantity—to generate an instant
+            WhatsApp bulk enquiry. We supply and deliver across Tiruppur and
+            industrial hubs across Tamil Nadu.
           </p>
         </div>
       </section>
@@ -759,20 +761,23 @@ export default function QuotePage() {
             <h2 className="text-3xl font-bold mb-8">Why request a quote?</h2>
 
             <div className="space-y-5 text-gray-600 leading-8">
-              <p>✔ Brown kraft paper</p>
-              <p>✔ Perforated pattern and packaging paper</p>
-              <p>✔ Plain catering table roll</p>
-              <p>✔ Delivery across Tiruppur</p>
-              <p>✔ Delivery available across Tiruppur and other districts</p>
+              <p>✔ Brown &amp; white garment cutting underlay paper (80–100 GSM)</p>
+              <p>✔ Perforated kraft lay paper for fabric spreading</p>
+              <p>✔ 60 GSM CAD plotter rolls &amp; 220–400 GSM duplex pattern rolls</p>
+              <p>✔ Auto-cutter HM open-width poly rolls (92&quot;–96&quot;)</p>
+              <p>✔ Direct bulk delivery across Tiruppur and other districts in Tamil Nadu</p>
             </div>
 
             <div className="mt-10 bg-gray-100 rounded-3xl p-6">
               <p className="font-semibold mb-3">Prefer to chat directly?</p>
               <p className="text-gray-600 mb-5">
-                If you already know what you need, message APA on WhatsApp
-                without filling the form.
+                Already have your GSM, roll width, and order quantity ready?
+                Message our Tiruppur dispatch team on WhatsApp without filling
+                out the form.
               </p>
-              <WhatsAppButton className="inline-block bg-white border px-5 py-3 rounded-full hover:bg-gray-50 font-semibold" />
+              <WhatsAppButton className="inline-block bg-white border px-5 py-3 rounded-full hover:bg-gray-50 font-semibold">
+                Chat with APA Manager
+              </WhatsAppButton>
             </div>
           </div>
 

@@ -4,8 +4,9 @@ import patternPaperImage from "../assets/pattern paper .jpg";
 import cateringRollImage from "../assets/white1.png";
 
 
+
 const SLIDES = [
-  { src: cateringRollImage, alt: "Plain catering table roll" },
+  { src: cateringRollImage, alt: "Garment cutting underlay kraft paper roll" },
   { src: brownPaperImage, alt: "Brown kraft paper" },
   { src: patternPaperImage, alt: "Perforated pattern paper roll" },
 ];

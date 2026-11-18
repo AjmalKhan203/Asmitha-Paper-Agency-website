@@ -15,9 +15,10 @@ export default function HomePage() {
   return (
     <Layout
       seo={{
-        title: "Bulk Paper Roll Supplier in Tiruppur | Asmitha Paper Agency",
+        title:
+          "Bulk Garment, Kraft & CAD Plotter Paper Supplier in Tiruppur | Asmitha Paper Agency",
         description:
-          "Buy bulk brown kraft paper, perforated paper rolls, and plain catering table rolls from Asmitha Paper Agency in Tiruppur, Tamil Nadu.",
+          "Leading B2B bulk paper roll supplier in Tiruppur. Order brown & white garment cutting underlay, perforated kraft lay paper, CAD plotter rolls (60–400 GSM), and HM poly rolls across Tamil Nadu.",
         path: "/home",
         products: true,
       }}
@@ -26,18 +27,18 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-up">
             <p className="text-sky-600 font-semibold mb-4">
-              Tiruppur-based B2B bulk paper supplier
+              Tiruppur-Based B2B Bulk Paper & Poly Roll Supplier
             </p>
 
             <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
-              Premium Bulk Paper Suppliers in Tiruppur
+              Bulk Garment, CAD/CAM & Packaging Paper Roll Suppliers in Tiruppur
             </h1>
 
             <p className="text-lg text-gray-600 mb-8 leading-8">
-              Asmitha Paper Agency is a B2B bulk paper supplier based in
-              Tiruppur. We supply brown kraft paper, perforated pattern and
-              packaging paper, and plain catering table rolls to apparel units,
-              packaging businesses, hotels, and caterers across Tamil Nadu.
+              Asmitha Paper Agency supplies bulk brown and white garment cutting
+              underlay paper, perforated kraft lay paper, CAD plotter rolls,
+              duplex pattern boards, and open-width poly rolls to apparel units,
+              textile manufacturers, and packaging businesses across Tamil Nadu.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -45,14 +46,14 @@ export default function HomePage() {
                 to="/quote"
                 className="bg-sky-600 text-white px-6 py-3 rounded-full hover:bg-sky-700 font-semibold"
               >
-                Request a Quote
+                Request a Bulk Quote
               </Link>
 
               <Link
                 to="/products"
                 className="border px-6 py-3 rounded-full hover:bg-gray-100"
               >
-                View Products
+                Explore Product Catalog
               </Link>
             </div>
           </div>
@@ -68,19 +69,39 @@ export default function HomePage() {
 
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
-          <h2 className="text-4xl font-bold text-center mb-10">Why Choose APA?</h2>
+          <h2 className="text-4xl font-bold text-center mb-10">
+            Why Apparel & Packaging Units Choose APA
+          </h2>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <h3 className="text-xl font-bold mb-3">Tiruppur B2B Supply</h3>
-              <p className="text-gray-600 leading-7">A local paper partner for garment, textile, packaging, catering, and commercial businesses.</p>
+              <h3 className="text-xl font-bold mb-3">
+                Tiruppur Textile & Garment Focus
+              </h3>
+              <p className="text-gray-600 leading-7">
+                Dedicated B2B supply of cutting underlay, perforated lay, and
+                CAD/CAM pattern rolls tailored for garment factories and export
+                houses.
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-3">Bulk Order Support</h3>
-              <p className="text-gray-600 leading-7">Discuss your required paper type, GSM, size, quantity, and delivery destination for a practical quote.</p>
+              <h3 className="text-xl font-bold mb-3">
+                Custom GSM & Standard Roll Widths
+              </h3>
+              <p className="text-gray-600 leading-7">
+                Order exact specifications from 60 GSM plotter paper up to 400
+                GSM duplex pattern rolls, in widths ranging from 24&quot; to
+                96&quot;.
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-3">Tamil Nadu Delivery</h3>
-              <p className="text-gray-600 leading-7">We coordinate delivery for B2B paper orders across Tiruppur and other Tamil Nadu districts.</p>
+              <h3 className="text-xl font-bold mb-3">
+                Reliable Tamil Nadu B2B Delivery
+              </h3>
+              <p className="text-gray-600 leading-7">
+                Streamlined dispatch and bulk order logistics across Tiruppur,
+                Coimbatore, Salem, Erode, and other industrial hubs in Tamil
+                Nadu.
+              </p>
             </div>
           </div>
         </div>
@@ -91,16 +112,22 @@ export default function HomePage() {
           className="max-w-5xl mx-auto px-4 md:px-6 text-center animate-fade-up"
           style={{ animationDelay: "80ms" }}
         >
-          <h2 className="text-4xl font-bold mb-6">About Us</h2>
+          <h2 className="text-4xl font-bold mb-6">
+            About Asmitha Paper Agency
+          </h2>
           <p className="text-lg text-gray-600 leading-8 mb-8">
-            Asmitha Paper Agency is a Tiruppur-based B2B supplier for bulk paper
-            orders. We sell brown kraft paper, perforated packaging paper,
-            and plain catering table rolls to apparel units, packaging businesses,
-            hotels, restaurants, and catering businesses. Our business is paper
-            supply only.
+            Asmitha Paper Agency is a specialized B2B bulk paper and poly roll
+            supplier based in Tiruppur. We support apparel manufacturing units,
+            CAD/CAM pattern makers, textile processors, and industrial packaging
+            businesses with consistent, high-grade paper rolls.
+          </p>
+          <p className="text-lg text-gray-600 leading-8 mb-8">
+            From 80–100 GSM kraft and white underlay rolls for fabric spreading
+            to 220–400 GSM pattern rolls and auto-cutter HM poly rolls, we supply
+            exact technical grades matched to your production floor workflows.
           </p>
           <Link to="/about" className="text-sky-600 font-semibold hover:underline">
-            Learn more about APA →
+            Learn more about our B2B supply →
           </Link>
         </div>
       </section>
@@ -153,7 +180,7 @@ export default function HomePage() {
 
           <div className="overflow-hidden rounded-3xl shadow-lg animate-fade-up">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.5031310403056!2d77.33836948871611!3d11.150334825729503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907fc49d61c71%3A0xffbfe8a8d5840717!2sAsmitha%20paper%20agency!5e0!3m2!1sen!2sus!4v1791456422477!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15658.0010507694!2d77.33032166146432!3d11.150547824348598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9070518398315%3A0x2d1c4180f25f47c2!2sAsmitha%20paper%20agency!5e0!3m2!1sen!2sin!4v1794919952659!5m2!1sen!2sin"
               width="600"
               height="450"
               style={{ border: 0 }}

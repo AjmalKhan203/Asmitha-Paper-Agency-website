@@ -27,7 +27,7 @@ export default function ProductCard({ product, className = "" }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleLeave}
     >
-      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-sky-100">
+      <div className="relative aspect-[3/2] w-full overflow-hidden rounded-lg bg-sky-100">
         {images.map((src, index) => (
           <img
             key={`${src}-${index}`}
@@ -51,6 +51,19 @@ export default function ProductCard({ product, className = "" }) {
             Request a Quote →
           </Link>
         </div>
+
+        {images.length > 1 && (
+          <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 z-10 flex gap-1.5">
+            {images.map((_, index) => (
+              <span
+                key={index}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  index === slide ? "w-4 bg-white" : "w-1.5 bg-white/60"
+                }`}
+              />
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="pt-5 flex flex-col flex-1">

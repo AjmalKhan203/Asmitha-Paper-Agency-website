@@ -15,7 +15,8 @@ function cleanMessageValue(value, maxLength = 300) {
 
 export function buildWhatsAppUrl(message, phoneNumber = APA_WHATSAPP_NUMBER) {
   const text = encodeURIComponent(message);
-  return `https://wa.me/${phoneNumber}?text=${text}`;
+  const phone = String(phoneNumber).replace(/\D/g, "");
+  return `https://wa.me/${phone}?text=${text}`;
 }
 
 export function buildEnquiryMessage(values) {

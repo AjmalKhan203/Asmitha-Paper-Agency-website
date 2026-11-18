@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Seo from "./Seo";
+import FloatingWhatsApp from "./FloatingWhatsApp";
 
 export default function Layout({ children, seo }) {
   return (
@@ -12,6 +13,7 @@ export default function Layout({ children, seo }) {
       <Navbar />
       <main className="flex-1 pt-20">{children}</main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://asmithapaperagency.netlify.app/home/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/products/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/products/brown-kraft-paper-roll/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/products/perforated-pattern-packaging-paper/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/products/plain-catering-table-roll/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/about/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/contact/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/quote/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/delivery/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/help/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/terms/</loc></url>
-  <url><loc>https://asmithapaperagency.netlify.app/privacy/</loc></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/home/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/products/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/quote/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/about/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/contact/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/delivery/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/help/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/terms/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/privacy/</loc><lastmod>2026-11-18</lastmod></url>
 </urlset>

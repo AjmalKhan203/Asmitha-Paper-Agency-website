@@ -10,9 +10,9 @@ const REVIEWS = [
   },
   {
     quote:
-      "The food serving paper is useful for our catering orders and wedding events. Bulk quantity discussions and dispatch were straightforward.",
-    name: "Arun Kumar",
-    business: "Catering Business Owner",
+      "great quality paper and timely delivery. APA has been our trusted supplier for our packaging needs.",
+    name: "Ravi K",
+    business: "Packaging Business Owner", 
     location: "Coimbatore, Tamil Nadu",
   },
   {
