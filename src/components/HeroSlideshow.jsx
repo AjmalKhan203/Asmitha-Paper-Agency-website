@@ -6,9 +6,18 @@ import cateringRollImage from "../assets/white1.png";
 
 
 const SLIDES = [
-  { src: cateringRollImage, alt: "Garment cutting underlay kraft paper roll" },
-  { src: brownPaperImage, alt: "Brown kraft paper" },
-  { src: patternPaperImage, alt: "Perforated pattern paper roll" },
+  {
+    src: cateringRollImage,
+    alt: "White garment cutting underlay paper roll for apparel factories in Tiruppur",
+  },
+  {
+    src: brownPaperImage,
+    alt: "100 GSM brown kraft garment cutting underlay paper roll in Tiruppur",
+  },
+  {
+    src: patternPaperImage,
+    alt: "Perforated kraft pattern paper roll for CAD and CAM garment cutting",
+  },
 ];
 
 export default function HeroSlideshow() {

@@ -1,7 +1,7 @@
 export const BUSINESS_PHONE_NUMBERS =
   import.meta.env.VITE_PHONE_NUMBERS ?? "+91 90808 56764";
 export const PRIMARY_PHONE_NUMBER =
-  import.meta.env.VITE_PHONE_NUMBER ?? "+91 9080856764";
+  import.meta.env.VITE_PHONE_NUMBER ?? "+91 9786786938";
 export const BUSINESS_EMAIL =
   import.meta.env.VITE_CONTACT_EMAIL ?? "asmithapapers@gmail.com";
 export const BUSINESS_ADDRESS =
