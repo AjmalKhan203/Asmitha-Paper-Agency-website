@@ -26,6 +26,7 @@ export default function ProductDetailPage() {
           title: "Product Not Found | Asmitha Paper Agency",
           description: "Browse bulk paper products from Asmitha Paper Agency.",
           path: "/products",
+          noIndex: true,
         }}
       >
         <section className="max-w-3xl mx-auto px-6 py-20 text-center">

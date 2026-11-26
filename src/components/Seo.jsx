@@ -31,16 +31,19 @@ export default function Seo(props) {
       canonicalUrl,
       imageUrl,
       isProduct,
+      robots,
       schemas,
     } = metadata;
 
     document.title = title;
+    upsertMeta("name", "robots", robots);
     upsertMeta("name", "description", description);
     upsertMeta("property", "og:title", title);
     upsertMeta("property", "og:description", description);
     upsertMeta("property", "og:type", isProduct ? "product" : "website");
     upsertMeta("property", "og:url", canonicalUrl);
     upsertMeta("property", "og:site_name", "Asmitha Paper Agency");
+    upsertMeta("property", "og:locale", "en_IN");
     upsertMeta("property", "og:image", imageUrl);
     upsertMeta("name", "twitter:card", imageUrl ? "summary_large_image" : "summary");
     upsertMeta("name", "twitter:title", title);

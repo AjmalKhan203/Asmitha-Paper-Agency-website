@@ -17,7 +17,7 @@ export default function IntroPage() {
         title="Asmitha Paper Agency | Bulk Paper Roll Supplier in Tiruppur"
         description="Asmitha Paper Agency supplies bulk brown kraft, perforated pattern, and plain catering table rolls for B2B buyers in Tiruppur and Tamil Nadu."
         path="/home/"
-        products
+        noIndex
       />
       <main
       className="apa-splash"
