@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 
@@ -6,4 +7,14 @@ Disallow: /api/
 Disallow: /admin/
 
 # Sitemap location
+=======
+User-agent: *
+Allow: /
+
+# Block non-public or utility paths if any exist
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+>>>>>>> 0c1b4198685b8e099f1fd6970a5243b0b6898174
 Sitemap: https://asmithapaperagency.vercel.app/sitemap.xml
