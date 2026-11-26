@@ -58,28 +58,17 @@ const ORGANIZATION_SCHEMA = {
 function productSchema(product, siteUrl) {
   return {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     name: product.title,
     url: `${siteUrl}/products/${product.id}/`,
     description: product.description,
     image: product.images.map((image) => new URL(image, siteUrl).href),
-    category: "Bulk paper rolls",
-    brand: {
-      "@type": "Brand",
+    serviceType: "Bulk paper rolls",
+    provider: {
+      "@type": "Organization",
       name: "Asmitha Paper Agency",
     },
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "GSM",
-        value: product.gsm,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Available widths and formats",
-        value: product.widths.join(", "),
-      },
-    ],
+    areaServed: "India",
   };
 }
 
