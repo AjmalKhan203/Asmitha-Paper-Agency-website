@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
-Sitemap: asmithapaperagency.vercel.app/sitemap.xml
+# Block non-public or utility paths if any exist
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://asmithapaperagency.vercel.app/sitemap.xml
