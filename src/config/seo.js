@@ -182,7 +182,7 @@ export function getSeoMetadata({
     canonicalUrl,
     imageUrl,
     isProduct: Boolean(product),
-    noIndex,
+    noIndex:false,
     robots: noIndex ? "noindex, nofollow" : "index, follow, max-image-preview:large",
     schemas,
   };
